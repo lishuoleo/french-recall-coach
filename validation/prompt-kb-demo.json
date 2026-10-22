@@ -1,0 +1,505 @@
+{
+  "schema": 1,
+  "created_at": "2026-10-22T02:07:05.552462+00:00",
+  "synthetic": true,
+  "real_model_calls": 7,
+  "codex_version": "codex-cli 0.162.0-alpha.17.2",
+  "model_selection": "Same Codex binary and CLI default, --ignore-user-config, no model override. Exact backend model identity is not emitted by the JSON trace and was not pinned; no guarantee of an immutable model revision.",
+  "common_cli_flags": [
+    "exec",
+    "--ephemeral",
+    "--ignore-user-config",
+    "--json"
+  ],
+  "arm_difference": "Harness: project instructions, executable gateway and durable state, workspace-write sandbox. Prompt+KB: same relevant static content and coaching policies inline, read-only sandbox, explicitly no tools or persistent state.",
+  "conversation_method": "Every call is a fresh Codex process. Scene 1 replays each arm's own exact transcript between turns, not a persistent CLI session. Scene 2 deliberately omits that transcript. Scene 3 restores the exact prompt+KB transcript manually.",
+  "baseline_boundary": "No engine or learner-state context provided. Zero-tool compliance is checked in the trace. This is not a claim of OS-level isolation or a comparison against a chat product with its own saved history.",
+  "synthetic_now": "2026-10-22T06:00:00+00:00",
+  "initial_fixture": "Public API init + start(vocab, 3), no answers seeded",
+  "static_knowledge_base": [
+    {
+      "id": "v001",
+      "week": 1,
+      "prompt": "Translate into French: The house is small.",
+      "answers": [
+        "La maison est petite."
+      ],
+      "target": "la maison",
+      "explanation": "Maison is feminine: use la and the feminine adjective petite.",
+      "tags": [
+        "vocabulary",
+        "week-1",
+        "home",
+        "gender",
+        "adjective-agreement"
+      ]
+    },
+    {
+      "id": "v002",
+      "week": 1,
+      "prompt": "Give the French word or expression for apartment / flat, including the definite article.",
+      "answers": [
+        "l'appartement"
+      ],
+      "target": "l'appartement",
+      "explanation": "Appartement is masculine; le becomes l' before a vowel.",
+      "tags": [
+        "vocabulary",
+        "week-1",
+        "home"
+      ]
+    },
+    {
+      "id": "v003",
+      "week": 1,
+      "prompt": "Give the French word or expression for bedroom, including the definite article.",
+      "answers": [
+        "la chambre",
+        "la chambre à coucher"
+      ],
+      "target": "la chambre",
+      "explanation": "Chambre is feminine; chambre à coucher explicitly means bedroom.",
+      "tags": [
+        "vocabulary",
+        "week-1",
+        "home"
+      ]
+    }
+  ],
+  "common_coaching_policy": "You are a French recall coach. Ask one question at a time. Explain briefly\nin English, with French where useful. Evaluate the actual answer fairly, accepting\nvalid paraphrases. A spelling or agreement error is not a judgement about the learner.\nFor an error, explain the relevant point and invite a correction. Do not fabricate\nan answer or a retry. When the learner supplies a correction and asks to continue,\nacknowledge it and ask the next curriculum question.\n\nEvidence policy: Preserve the first answer and its original judgement separately\nfrom a correction given after feedback. A coached correction is assisted; it does\nnot turn the first attempt into independent success and must not create another\nscheduled review. A first, incorrect attempt receives one Again scheduling event;\na correct, unassisted first attempt receives Good. Do not invent a review date.\nIndependent delayed recall requires an unassisted attempt at least one day after\nan earlier scheduled attempt. An immediate correction is not delayed recall.\nSession progress is not programme mastery. State only what the available evidence\nsupports; if no previous learner record is available, say so and request the\nmissing context. Do not infer learner history from static curriculum examples.\n",
+  "source_hashes": {
+    "coach/__init__.py": "19c9106ea4bd33109468aaa0a44fcc3cdbe564a71a483afdadb3e4a43bc2ff38",
+    "coach/__main__.py": "7c4c598577f97549da2baf0fddaca02bb745325cb260cf36bd15d276079cf5dc",
+    "coach/content.py": "66996aca7978fc911bee35a422f536e61a91f6ae9a95547b247940892df52d1c",
+    "coach/engine.py": "efd6636e09449266556f16f1c2e228b5a7651a487d28be376d351592904e5b82",
+    "coach/scheduler.py": "fe125e8acd534250d2c9aa627430f319834cf9782cff6b9c52b28573478bbb46",
+    "data/numbers.json": "21c70a0b086a5d911dd16bd5bdc81d72bec624d75956775ab50bd0892bdbc485",
+    "data/sources.json": "fb5b76c9a5c0305742f24a96828624aeb7729a5be3d23e6cf36e77b9ece4479d",
+    "data/verbs.json": "912b51f0b34a88a0a471a0e7403d4d5ab54f62b5ff41ad31e368fae5c592576e",
+    "data/vocab.json": "102d162c0f5c186eebb3ce26c78538fd2e33430dcdca9d4c5e219074d3a73602",
+    "docs/architecture.md": "5189e88cacb3ab930002e8481fb88013750922a975891bac99da0ab163a2b33d",
+    "docs/course-map.md": "8932d2e2a99bd8a379381190cef215fe47bc95a39812b67dd3146ebe10b8e7f7",
+    "docs/implementation-contract.md": "516cd128bee39f203bd4f001c50dda66d1554b40c000fa7f462b543dd14ebe89",
+    "docs/improvement-log.md": "5401bffaf6a513237ecbc84b78aa66cdb34f01f7246f896170740dfc4cd4c18b",
+    "docs/knowledge-solidification.md": "f79e27ac17452676b087adbc2177e7abf69555aa959d74f980183bf58d4da26a",
+    "docs/practice-protocol.md": "9ccc1c798f46846efa28a3b87cea8ef1e97604657082dad24689c0de0e57ad44",
+    "docs/rule-inventory.md": "67da3b21976ef4a8110bf720fcb6a3e8b5a3583c89c7567dcdec9c000dbb4f67",
+    "docs/sources.md": "40efe264acad90077bc902edbd9666d00878cda1563bf72b610e6af94c1fa00a",
+    ".agents/skills/french-conjugation/SKILL.md": "2dc4b07dc01f09fe2361a3e3ffc6a036722b734d5fc7e2dbc3a83ee87548937f",
+    ".agents/skills/french-numbers/SKILL.md": "3bc990f77ab2d0ea30a7fcd3eb665e826e21070e3c6d0d4f6d71874d297f3cec",
+    ".agents/skills/french-vocab/SKILL.md": "acbe9b950ed6769df7a0c4c26d11ea291c293dc9d8071a851bb7cf156f2084c7",
+    "AGENTS.md": "10cd3aecec3d82515eaa8706f8e8ae2478865801d425206612c85e7b4edae8f6",
+    "requirements.txt": "49306df50fe32c9fbfbca4740183cf7fd275ae7dad1c8f1d80dba862b2197095",
+    "pyproject.toml": "58d939d36ac32b6da711509140ced4be91e180399c477475a5218c21820c62fe"
+  },
+  "runner_sha256": "8fb58a3fcc5c0991238c78fb4d8ded3381ef10651a362262de5290260a36f471",
+  "source_matches_current_tree": true,
+  "runtime_seconds": 117.298,
+  "results": [
+    {
+      "id": "scene1_first_prompt_kb",
+      "arm": "prompt_kb",
+      "final_response": "Almost: **maison** is feminine, so use **La**, not **Le**. **Petite** is already correct.\n\nYour first attempt is incorrect and receives **Again**. Any correction after this feedback is assisted.\n\nPlease try the full sentence again.",
+      "runtime_seconds": 15.552,
+      "usage": {
+        "input_tokens": 15894,
+        "cached_input_tokens": 12288,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 57,
+        "reasoning_output_tokens": 0
+      },
+      "returncode": 0,
+      "timed_out": false,
+      "observed_tool_calls": 0,
+      "observed_item_types": [
+        "agent_message"
+      ],
+      "gateway_command_count": 0,
+      "prompt_sha256": "ffde66384592153f9f6017b09a2284e58b7c29f5640d1234e9830287534bc507",
+      "checks": [
+        {
+          "name": "real_codex_turn_completed",
+          "passed": true
+        },
+        {
+          "name": "trace_parsed_without_error",
+          "passed": true
+        },
+        {
+          "name": "zero_observed_tool_calls",
+          "passed": true
+        },
+        {
+          "name": "no_workspace_files_created",
+          "passed": true
+        }
+      ],
+      "manual_review": {
+        "status": "passed",
+        "reviewer": "Codex response review plus independent read-only comparison review",
+        "note": "Correctly explains Le to La and retains the first-error distinction. Again is a decision expressed in chat; no scheduler was executed."
+      },
+      "raw_artifact_directory": "scene1_first_prompt_kb"
+    },
+    {
+      "id": "scene1_first_harness",
+      "arm": "harness",
+      "final_response": "Use **la maison** because *maison* is feminine. **Petite** is already correct.\n\nCan you try the whole sentence again?",
+      "runtime_seconds": 32.12,
+      "usage": {
+        "input_tokens": 98985,
+        "cached_input_tokens": 81408,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 343,
+        "reasoning_output_tokens": 0
+      },
+      "returncode": 0,
+      "timed_out": false,
+      "observed_tool_calls": 5,
+      "observed_item_types": [
+        "agent_message",
+        "command_execution"
+      ],
+      "gateway_command_count": 3,
+      "prompt_sha256": "fa4d4dc20d583f3a4919c80123133b1a5aac7f7683d3fd3475c9ef056f33fc89",
+      "checks": [
+        {
+          "name": "real_codex_turn_completed",
+          "passed": true
+        },
+        {
+          "name": "trace_parsed_without_error",
+          "passed": true
+        },
+        {
+          "name": "harness_source_unchanged",
+          "passed": true
+        },
+        {
+          "name": "actual_gateway_used",
+          "passed": true
+        }
+      ],
+      "manual_review": {
+        "status": "passed",
+        "reviewer": "Codex response review plus independent read-only comparison review",
+        "note": "Correct French feedback; actual gateway stores the first answer and incorrect judgement."
+      },
+      "raw_artifact_directory": "scene1_first_harness"
+    },
+    {
+      "id": "scene1_correction_prompt_kb",
+      "arm": "prompt_kb",
+      "final_response": "Correct: **La maison est petite.** Your correction is noted here as assisted. Your first attempt remains incorrect with **Again**; this correction adds no scheduling event.\n\nGive the French word or expression for **apartment / flat**, including the definite article.",
+      "runtime_seconds": 19.55,
+      "usage": {
+        "input_tokens": 15999,
+        "cached_input_tokens": 12288,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 56,
+        "reasoning_output_tokens": 0
+      },
+      "returncode": 0,
+      "timed_out": false,
+      "observed_tool_calls": 0,
+      "observed_item_types": [
+        "agent_message"
+      ],
+      "gateway_command_count": 0,
+      "prompt_sha256": "99836b5b943bad6347bdf5195728e6de7547f061e5d4f5b1e83f797915910e1c",
+      "checks": [
+        {
+          "name": "real_codex_turn_completed",
+          "passed": true
+        },
+        {
+          "name": "trace_parsed_without_error",
+          "passed": true
+        },
+        {
+          "name": "zero_observed_tool_calls",
+          "passed": true
+        },
+        {
+          "name": "no_workspace_files_created",
+          "passed": true
+        }
+      ],
+      "manual_review": {
+        "status": "passed",
+        "reviewer": "Codex response review plus independent read-only comparison review",
+        "note": "Correctly acknowledges an assisted correction in the supplied transcript and asks v002. No persistent record exists."
+      },
+      "raw_artifact_directory": "scene1_correction_prompt_kb"
+    },
+    {
+      "id": "scene1_correction_harness",
+      "arm": "harness",
+      "final_response": "Correct: **La maison est petite.** Your correction is saved as assisted; the original incorrect attempt remains unchanged, with no extra scheduled review.\n\nGive the French word or expression for apartment / flat, including the definite article.",
+      "runtime_seconds": 40.622,
+      "usage": {
+        "input_tokens": 99261,
+        "cached_input_tokens": 89600,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 391,
+        "reasoning_output_tokens": 0
+      },
+      "returncode": 0,
+      "timed_out": false,
+      "observed_tool_calls": 6,
+      "observed_item_types": [
+        "agent_message",
+        "command_execution"
+      ],
+      "gateway_command_count": 4,
+      "prompt_sha256": "2618c665f50ff512227b29a6e90df57437d212981b4af6021a83a2211d8ee9ca",
+      "checks": [
+        {
+          "name": "real_codex_turn_completed",
+          "passed": true
+        },
+        {
+          "name": "trace_parsed_without_error",
+          "passed": true
+        },
+        {
+          "name": "harness_source_unchanged",
+          "passed": true
+        },
+        {
+          "name": "actual_gateway_used",
+          "passed": true
+        }
+      ],
+      "manual_review": {
+        "status": "passed",
+        "reviewer": "Codex response review plus independent read-only comparison review",
+        "note": "Actual saved first attempt remains incorrect; assisted correction is separate, schedule is unchanged, next question is v002."
+      },
+      "raw_artifact_directory": "scene1_correction_harness"
+    },
+    {
+      "id": "scene2_fresh_resume_prompt_kb",
+      "arm": "prompt_kb",
+      "final_response": "I don’t have a previous learner record, so I can’t tell what happened on your last item or where you left off. The curriculum and teaching example aren’t evidence of your past answers.\n\nCould you share your last practice exchange, including the question, your first answer, and any feedback or correction?",
+      "runtime_seconds": 8.358,
+      "usage": {
+        "input_tokens": 15877,
+        "cached_input_tokens": 12288,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 65,
+        "reasoning_output_tokens": 0
+      },
+      "returncode": 0,
+      "timed_out": false,
+      "observed_tool_calls": 0,
+      "observed_item_types": [
+        "agent_message"
+      ],
+      "gateway_command_count": 0,
+      "prompt_sha256": "846efea158514fbb5cd3f33b58d1379e8b284ed1e3048b1a7affb0737fb21116",
+      "checks": [
+        {
+          "name": "real_codex_turn_completed",
+          "passed": true
+        },
+        {
+          "name": "trace_parsed_without_error",
+          "passed": true
+        },
+        {
+          "name": "zero_observed_tool_calls",
+          "passed": true
+        },
+        {
+          "name": "no_workspace_files_created",
+          "passed": true
+        }
+      ],
+      "manual_review": {
+        "status": "passed",
+        "reviewer": "Codex response review plus independent read-only comparison review",
+        "note": "Honestly asks for missing learner history; this is an operational limitation, not an incorrect French answer."
+      },
+      "raw_artifact_directory": "scene2_fresh_resume_prompt_kb"
+    },
+    {
+      "id": "scene2_fresh_resume_harness",
+      "arm": "harness",
+      "final_response": "Your saved record shows that your last first answer was **“Le maison est petite.”** It was marked incorrect because *maison* is feminine: use **la**. **Petite** was already correct.\n\nYou then corrected it to **“La maison est petite.”** That correction is saved separately as assisted. The original attempt received one **Again** scheduling event; the correction created no additional review. There is no delayed independent recall evidence yet.\n\nYou’ve completed 1 of 3 session items. Let’s resume with item 2:\n\n**Give the French word or expression for apartment / flat, including the definite article.**",
+      "runtime_seconds": 34.712,
+      "usage": {
+        "input_tokens": 167671,
+        "cached_input_tokens": 154496,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 608,
+        "reasoning_output_tokens": 0
+      },
+      "returncode": 0,
+      "timed_out": false,
+      "observed_tool_calls": 9,
+      "observed_item_types": [
+        "agent_message",
+        "command_execution"
+      ],
+      "gateway_command_count": 7,
+      "prompt_sha256": "094f07fd23ef4bba61ff6cd61fddb82bf156dae1a21fab8378defc17fea9a8c4",
+      "checks": [
+        {
+          "name": "real_codex_turn_completed",
+          "passed": true
+        },
+        {
+          "name": "trace_parsed_without_error",
+          "passed": true
+        },
+        {
+          "name": "harness_source_unchanged",
+          "passed": true
+        },
+        {
+          "name": "actual_gateway_used",
+          "passed": true
+        }
+      ],
+      "manual_review": {
+        "status": "passed",
+        "reviewer": "Codex response review plus independent read-only comparison review",
+        "note": "Recovers the exact first answer, assisted correction, single review and next question from actual saved state."
+      },
+      "raw_artifact_directory": "scene2_fresh_resume_harness"
+    },
+    {
+      "id": "scene3_manual_handover_prompt_kb",
+      "arm": "prompt_kb",
+      "final_response": "Your last completed item was **“The house is small.”** Your first answer, “Le maison est petite,” was incorrect because *maison* is feminine; **petite** was already correct. That attempt received **Again**.\n\nYou then corrected it to **“La maison est petite.”** This was an assisted correction, kept separate from your first attempt, with no additional scheduling event.\n\nThe next question was asked but remains unanswered. I have no learner history beyond the supplied transcript.\n\nGive the French word or expression for **apartment / flat**, including the definite article.",
+      "runtime_seconds": 9.622,
+      "usage": {
+        "input_tokens": 16104,
+        "cached_input_tokens": 12288,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 121,
+        "reasoning_output_tokens": 0
+      },
+      "returncode": 0,
+      "timed_out": false,
+      "observed_tool_calls": 0,
+      "observed_item_types": [
+        "agent_message"
+      ],
+      "gateway_command_count": 0,
+      "prompt_sha256": "ec5aa1777469c4d0b37421f99967b024a7c69259165a11afb5bead2626979dbc",
+      "checks": [
+        {
+          "name": "real_codex_turn_completed",
+          "passed": true
+        },
+        {
+          "name": "trace_parsed_without_error",
+          "passed": true
+        },
+        {
+          "name": "zero_observed_tool_calls",
+          "passed": true
+        },
+        {
+          "name": "no_workspace_files_created",
+          "passed": true
+        }
+      ],
+      "manual_review": {
+        "status": "passed",
+        "reviewer": "Codex response review plus independent read-only comparison review",
+        "note": "With the exact earlier transcript supplied, correctly recovers prior answers and resumes v002; statements about Again remain transcript-level decisions."
+      },
+      "raw_artifact_directory": "scene3_manual_handover_prompt_kb"
+    }
+  ],
+  "harness_state_checks": [
+    {
+      "name": "wrong_answer_was_saved_by_the_actual_model_call",
+      "passed": true
+    },
+    {
+      "name": "first_wrong_answer_created_exactly_one_review",
+      "passed": true
+    },
+    {
+      "name": "correction_did_not_overwrite_first_attempt",
+      "passed": true
+    },
+    {
+      "name": "actual_correction_saved_separately_as_assisted",
+      "passed": true
+    },
+    {
+      "name": "correction_did_not_create_a_second_review",
+      "passed": true
+    },
+    {
+      "name": "session_continued_to_apartment_question",
+      "passed": true
+    },
+    {
+      "name": "fresh_process_preserved_original_attempt_and_schedule",
+      "passed": true
+    },
+    {
+      "name": "fresh_process_preserved_checkpoint",
+      "passed": true
+    },
+    {
+      "name": "fresh_process_read_the_checkpoint",
+      "passed": true
+    }
+  ],
+  "gateway_boundary_probe": {
+    "kind": "deterministic public-gateway boundary probe, not a model-generated mistake",
+    "attempted_overwrite": "La maison est petite.",
+    "duplicate_original": "Le maison est petite.",
+    "observed": {
+      "overwrite_error": {
+        "type": "CoachError",
+        "text": "The first answer is already saved. Use retry for a correction; never overwrite it.",
+        "code": "immutable_answer"
+      },
+      "duplicate_original_result": {
+        "item_id": "8482da65eb274245:0",
+        "status": "already_saved",
+        "verdict": "incorrect",
+        "saved": true
+      }
+    },
+    "checks": [
+      {
+        "name": "overwrite_rejected_as_immutable",
+        "passed": true
+      },
+      {
+        "name": "identical_original_replay_is_idempotent",
+        "passed": true
+      },
+      {
+        "name": "attempts_unchanged_after_both_probes",
+        "passed": true
+      },
+      {
+        "name": "scheduled_cards_unchanged_after_both_probes",
+        "passed": true
+      }
+    ]
+  },
+  "manual_review_status": "7 of 7 responses reviewed against the stated limited comparison; no human-teacher certification",
+  "limits": [
+    "One synthetic learner trace, not a statistical benchmark.",
+    "French teaching quality and honesty require manual reading of the actual responses.",
+    "A prompt+KB with the whole prior transcript can recover conversation context; the cold-resume comparison measures the benefit of explicit persistent state.",
+    "The boundary probe intentionally submits invalid/repeated operations; it does not claim the baseline model made these mistakes.",
+    "No measured claim of better long-term retention, lower cost, faster replies or universal model superiority."
+  ],
+  "automated_checks_passed": 41,
+  "automated_checks_total": 41,
+  "automated_pass": true,
+  "conclusion": "Both approaches taught the French correctly. The harness removed a manual history handover and enforced integrity of the saved learning record. The baseline recovered conversation context when its full transcript was supplied.",
+  "prior_baseline_distinction": "validation/codex-results.json compares instructions on the same engine. This demonstration removes the engine and durable state from the prompt+static-KB arm."
+}

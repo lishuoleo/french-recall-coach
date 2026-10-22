@@ -56,6 +56,8 @@ The engine accepts known answers after typographic normalisation. Codex judges u
 4. Use [the course map](docs/course-map.md) to find all 25 lessons and the 13 bad smells in the implementation and tests.
 5. Read [the improvement log](docs/improvement-log.md) for actual defects found during this build, including a learning-plan loop that could never finish.
 
+For a side-by-side comparison with prompt + knowledge base alone, use [the five-minute demo](docs/prompt-vs-harness-demo.md). It includes seven actual Codex responses, a fresh-conversation test and a manual-history control. Both setups teach the French correctly; the measured difference is automatic continuity and protection of the saved record.
+
 ## Verify it
 
 With the virtual environment active:

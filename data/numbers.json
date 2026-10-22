@@ -1,0 +1,308 @@
+{
+  "locale": "fr-FR",
+  "dialect": "metropolitan French",
+  "scope": "Constrained written cardinal, masculine ordinal, date and 24-hour time practice; not pronunciation assessment.",
+  "spelling": "Traditional spelling is displayed; the 1990 all-hyphen style is accepted through normalisation.",
+  "preserve_accents": true,
+  "assessment_sample_per_stage": 20,
+  "assessment_seed": 42,
+  "levels": [
+    {
+      "level": 1,
+      "min": 0,
+      "max": 20,
+      "modes": {
+        "cardinal": 20
+      }
+    },
+    {
+      "level": 2,
+      "min": 21,
+      "max": 69,
+      "modes": {
+        "cardinal": 10,
+        "ordinal": 10
+      },
+      "ordinal_values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        11,
+        20,
+        21,
+        80
+      ],
+      "ordinal_gender": "masculine"
+    },
+    {
+      "level": 3,
+      "min": 70,
+      "max": 99,
+      "modes": {
+        "cardinal": 10,
+        "date": 10
+      },
+      "dates": [
+        [
+          1,
+          1
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          25,
+          12
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          30,
+          4
+        ],
+        [
+          15,
+          5
+        ],
+        [
+          21,
+          6
+        ],
+        [
+          31,
+          8
+        ],
+        [
+          11,
+          11
+        ]
+      ],
+      "date_format": "le + day in words + month; day 1 is premier; no year"
+    },
+    {
+      "level": 4,
+      "min": 100,
+      "max": 999,
+      "modes": {
+        "cardinal": 10,
+        "time": 10
+      },
+      "times": [
+        "00:00",
+        "01:00",
+        "08:15",
+        "09:30",
+        "10:45",
+        "12:00",
+        "13:10",
+        "17:20",
+        "21:05",
+        "23:59"
+      ],
+      "time_format": "24-hour hour in words + heure(s) + minute number when non-zero; omit il est. Use zéro heure, une heure, vingt et une heures. Midi and minuit accepted for exact noon and midnight."
+    }
+  ],
+  "boundary_examples": [
+    {
+      "mode": "cardinal",
+      "value": 0,
+      "answers": [
+        "zéro"
+      ]
+    },
+    {
+      "mode": "cardinal",
+      "value": 21,
+      "answers": [
+        "vingt et un",
+        "vingt-et-un"
+      ]
+    },
+    {
+      "mode": "cardinal",
+      "value": 71,
+      "answers": [
+        "soixante et onze",
+        "soixante-et-onze"
+      ]
+    },
+    {
+      "mode": "cardinal",
+      "value": 80,
+      "answers": [
+        "quatre-vingts"
+      ]
+    },
+    {
+      "mode": "cardinal",
+      "value": 81,
+      "answers": [
+        "quatre-vingt-un"
+      ]
+    },
+    {
+      "mode": "cardinal",
+      "value": 91,
+      "answers": [
+        "quatre-vingt-onze"
+      ]
+    },
+    {
+      "mode": "cardinal",
+      "value": 200,
+      "answers": [
+        "deux cents",
+        "deux-cents"
+      ]
+    },
+    {
+      "mode": "cardinal",
+      "value": 201,
+      "answers": [
+        "deux cent un",
+        "deux-cent-un"
+      ]
+    },
+    {
+      "mode": "cardinal",
+      "value": 280,
+      "answers": [
+        "deux cent quatre-vingts",
+        "deux-cent-quatre-vingts"
+      ]
+    },
+    {
+      "mode": "cardinal",
+      "value": 281,
+      "answers": [
+        "deux cent quatre-vingt-un",
+        "deux-cent-quatre-vingt-un"
+      ]
+    },
+    {
+      "mode": "ordinal",
+      "value": 1,
+      "answers": [
+        "premier"
+      ]
+    },
+    {
+      "mode": "ordinal",
+      "value": 2,
+      "answers": [
+        "deuxième",
+        "second"
+      ]
+    },
+    {
+      "mode": "ordinal",
+      "value": 5,
+      "answers": [
+        "cinquième"
+      ]
+    },
+    {
+      "mode": "ordinal",
+      "value": 9,
+      "answers": [
+        "neuvième"
+      ]
+    },
+    {
+      "mode": "ordinal",
+      "value": 21,
+      "answers": [
+        "vingt et unième",
+        "vingt-et-unième"
+      ]
+    },
+    {
+      "mode": "ordinal",
+      "value": 80,
+      "answers": [
+        "quatre-vingtième"
+      ]
+    },
+    {
+      "mode": "date",
+      "value": "01-01",
+      "answers": [
+        "le premier janvier"
+      ]
+    },
+    {
+      "mode": "date",
+      "value": "07-14",
+      "answers": [
+        "le quatorze juillet"
+      ]
+    },
+    {
+      "mode": "time",
+      "value": "00:00",
+      "answers": [
+        "zéro heure",
+        "minuit"
+      ]
+    },
+    {
+      "mode": "time",
+      "value": "01:00",
+      "answers": [
+        "une heure"
+      ]
+    },
+    {
+      "mode": "time",
+      "value": "12:00",
+      "answers": [
+        "douze heures",
+        "midi"
+      ]
+    },
+    {
+      "mode": "time",
+      "value": "21:05",
+      "answers": [
+        "vingt et une heures cinq",
+        "vingt-et-une heures cinq"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "Académie française: number spelling, twenty and hundred agreement",
+      "url": "https://www.academie-francaise.fr/questions-de-langue"
+    },
+    {
+      "title": "Académie française: quatre-vingts",
+      "url": "https://www.dictionnaire-academie.fr/article/A9Q0152"
+    },
+    {
+      "title": "Académie française: unième (compound ordinals)",
+      "url": "https://dictionnaire-academie.fr/article/A9U0079"
+    },
+    {
+      "title": "Académie française: zéro heure dix",
+      "url": "https://www.dictionnaire-academie.fr/article/QR_0247"
+    },
+    {
+      "title": "OQLF: dates and times in running text",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/21242/la-typographie/nombres/ecriture-des-dates-et-des-heures-dans-les-lettres-et-les-textes-courants"
+    },
+    {
+      "title": "Larousse: heure and agreement",
+      "url": "https://www.larousse.fr/dictionnaires/francais/heure/39843/locution"
+    }
+  ]
+}

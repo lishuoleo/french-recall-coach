@@ -1,0 +1,3046 @@
+[
+  {
+    "id": "v001",
+    "week": 1,
+    "prompt": "Translate into French: The house is small.",
+    "answers": [
+      "La maison est petite."
+    ],
+    "target": "la maison",
+    "explanation": "Maison is feminine: use la and the feminine adjective petite.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home",
+      "gender",
+      "adjective-agreement"
+    ]
+  },
+  {
+    "id": "v002",
+    "week": 1,
+    "prompt": "Give the French word or expression for apartment / flat, including the definite article.",
+    "answers": [
+      "l'appartement"
+    ],
+    "target": "l'appartement",
+    "explanation": "Appartement is masculine; le becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v003",
+    "week": 1,
+    "prompt": "Give the French word or expression for bedroom, including the definite article.",
+    "answers": [
+      "la chambre",
+      "la chambre à coucher"
+    ],
+    "target": "la chambre",
+    "explanation": "Chambre is feminine; chambre à coucher explicitly means bedroom.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v004",
+    "week": 1,
+    "prompt": "Give the French word or expression for kitchen, including the definite article.",
+    "answers": [
+      "la cuisine"
+    ],
+    "target": "la cuisine",
+    "explanation": "Cuisine is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v005",
+    "week": 1,
+    "prompt": "Give the French word or expression for living room, including the definite article.",
+    "answers": [
+      "le salon",
+      "le séjour"
+    ],
+    "target": "le salon",
+    "explanation": "Salon and séjour are masculine nouns for a living room.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v006",
+    "week": 1,
+    "prompt": "Give the French word or expression for bathroom, including the definite article.",
+    "answers": [
+      "la salle de bains",
+      "la salle de bain"
+    ],
+    "target": "la salle de bains",
+    "explanation": "Salle is feminine; both salle de bains and salle de bain occur.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v007",
+    "week": 1,
+    "prompt": "Give the French word or expression for toilets / restroom (use the plural noun), including the definite article.",
+    "answers": [
+      "les toilettes"
+    ],
+    "target": "les toilettes",
+    "explanation": "Toilettes is normally feminine plural for the restroom; use les.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v008",
+    "week": 1,
+    "prompt": "Give the French word or expression for door, including the definite article.",
+    "answers": [
+      "la porte"
+    ],
+    "target": "la porte",
+    "explanation": "Porte is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v009",
+    "week": 1,
+    "prompt": "Give the French word or expression for window, including the definite article.",
+    "answers": [
+      "la fenêtre"
+    ],
+    "target": "la fenêtre",
+    "explanation": "Fenêtre is feminine; preserve the circumflex.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v010",
+    "week": 1,
+    "prompt": "Give the French word or expression for wall, including the definite article.",
+    "answers": [
+      "le mur"
+    ],
+    "target": "le mur",
+    "explanation": "Mur is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v011",
+    "week": 1,
+    "prompt": "Give the French word or expression for floor (the surface under your feet), including the definite article.",
+    "answers": [
+      "le sol",
+      "le plancher"
+    ],
+    "target": "le sol",
+    "explanation": "Sol is masculine; plancher can also mean the floor underfoot. An étage is a storey of a building.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v012",
+    "week": 1,
+    "prompt": "Give the French word or expression for ceiling, including the definite article.",
+    "answers": [
+      "le plafond"
+    ],
+    "target": "le plafond",
+    "explanation": "Plafond is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v013",
+    "week": 1,
+    "prompt": "Give the French word or expression for roof, including the definite article.",
+    "answers": [
+      "le toit"
+    ],
+    "target": "le toit",
+    "explanation": "Toit is masculine; its final t is not pronounced.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v014",
+    "week": 1,
+    "prompt": "Give the French word or expression for garden, including the definite article.",
+    "answers": [
+      "le jardin"
+    ],
+    "target": "le jardin",
+    "explanation": "Jardin is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v015",
+    "week": 1,
+    "prompt": "Give the French word or expression for garage, including the definite article.",
+    "answers": [
+      "le garage"
+    ],
+    "target": "le garage",
+    "explanation": "Garage is masculine despite its final e.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v016",
+    "week": 1,
+    "prompt": "Give the French word or expression for table, including the definite article.",
+    "answers": [
+      "la table"
+    ],
+    "target": "la table",
+    "explanation": "Table is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v017",
+    "week": 1,
+    "prompt": "Give the French word or expression for chair, including the definite article.",
+    "answers": [
+      "la chaise"
+    ],
+    "target": "la chaise",
+    "explanation": "Chaise is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v018",
+    "week": 1,
+    "prompt": "Give the French word or expression for bed, including the definite article.",
+    "answers": [
+      "le lit"
+    ],
+    "target": "le lit",
+    "explanation": "Lit is masculine; its final t is not pronounced.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v019",
+    "week": 1,
+    "prompt": "Give the French word or expression for pillow, including the definite article.",
+    "answers": [
+      "l'oreiller"
+    ],
+    "target": "l'oreiller",
+    "explanation": "Oreiller is masculine; le becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v020",
+    "week": 1,
+    "prompt": "Give the French word or expression for blanket, including the definite article.",
+    "answers": [
+      "la couverture"
+    ],
+    "target": "la couverture",
+    "explanation": "Couverture is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v021",
+    "week": 1,
+    "prompt": "Give the French word or expression for bedsheet, including the definite article.",
+    "answers": [
+      "le drap"
+    ],
+    "target": "le drap",
+    "explanation": "Drap is masculine; its final p is not pronounced.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v022",
+    "week": 1,
+    "prompt": "Give the French word or expression for wardrobe (a freestanding piece of furniture), including the definite article.",
+    "answers": [
+      "l'armoire"
+    ],
+    "target": "l'armoire",
+    "explanation": "Armoire is feminine; la becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v023",
+    "week": 1,
+    "prompt": "Give the French word or expression for sofa, including the definite article.",
+    "answers": [
+      "le canapé",
+      "le sofa"
+    ],
+    "target": "le canapé",
+    "explanation": "Canapé and sofa are both masculine nouns for a sofa.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v024",
+    "week": 1,
+    "prompt": "Give the French word or expression for armchair, including the definite article.",
+    "answers": [
+      "le fauteuil"
+    ],
+    "target": "le fauteuil",
+    "explanation": "Fauteuil is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v025",
+    "week": 1,
+    "prompt": "Give the French word or expression for lamp, including the definite article.",
+    "answers": [
+      "la lampe"
+    ],
+    "target": "la lampe",
+    "explanation": "Lampe is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v026",
+    "week": 1,
+    "prompt": "Give the French word or expression for key (for a door), including the definite article.",
+    "answers": [
+      "la clé",
+      "la clef"
+    ],
+    "target": "la clé",
+    "explanation": "Clé and clef are both correct spellings; the noun is feminine.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v027",
+    "week": 1,
+    "prompt": "Give the French word or expression for lock (on a door), including the definite article.",
+    "answers": [
+      "la serrure"
+    ],
+    "target": "la serrure",
+    "explanation": "Serrure is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v028",
+    "week": 1,
+    "prompt": "Give the French word or expression for staircase, including the definite article.",
+    "answers": [
+      "l'escalier"
+    ],
+    "target": "l'escalier",
+    "explanation": "Escalier is masculine; use l' before the vowel.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v029",
+    "week": 1,
+    "prompt": "Give the French word or expression for mirror, including the definite article.",
+    "answers": [
+      "le miroir"
+    ],
+    "target": "le miroir",
+    "explanation": "Miroir is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v030",
+    "week": 1,
+    "prompt": "Give the French word or expression for towel, including the definite article.",
+    "answers": [
+      "la serviette",
+      "la serviette de bain"
+    ],
+    "target": "la serviette",
+    "explanation": "Serviette is feminine. De bain makes the bathroom meaning explicit.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v031",
+    "week": 1,
+    "prompt": "Give the French word or expression for soap, including the definite article.",
+    "answers": [
+      "le savon"
+    ],
+    "target": "le savon",
+    "explanation": "Savon is masculine; this prompt asks for the definite article le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v032",
+    "week": 1,
+    "prompt": "Give the French word or expression for shower, including the definite article.",
+    "answers": [
+      "la douche"
+    ],
+    "target": "la douche",
+    "explanation": "Douche is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v033",
+    "week": 1,
+    "prompt": "Give the French word or expression for bathtub, including the definite article.",
+    "answers": [
+      "la baignoire"
+    ],
+    "target": "la baignoire",
+    "explanation": "Baignoire is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v034",
+    "week": 1,
+    "prompt": "Give the French word or expression for bathroom washbasin, including the definite article.",
+    "answers": [
+      "le lavabo",
+      "la vasque"
+    ],
+    "target": "le lavabo",
+    "explanation": "Lavabo is masculine; vasque is a feminine noun for a basin. Évier normally means a kitchen sink.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v035",
+    "week": 1,
+    "prompt": "Give the French word or expression for tap / faucet, including the definite article.",
+    "answers": [
+      "le robinet"
+    ],
+    "target": "le robinet",
+    "explanation": "Robinet is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v036",
+    "week": 1,
+    "prompt": "Give the French word or expression for plate (for food), including the definite article.",
+    "answers": [
+      "l'assiette"
+    ],
+    "target": "l'assiette",
+    "explanation": "Assiette is feminine; la becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v037",
+    "week": 1,
+    "prompt": "Give the French word or expression for bowl, including the definite article.",
+    "answers": [
+      "le bol"
+    ],
+    "target": "le bol",
+    "explanation": "Bol is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v038",
+    "week": 1,
+    "prompt": "Give the French word or expression for drinking glass, including the definite article.",
+    "answers": [
+      "le verre"
+    ],
+    "target": "le verre",
+    "explanation": "Verre is masculine; it ends in double r followed by e.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v039",
+    "week": 1,
+    "prompt": "Give the French word or expression for cup, including the definite article.",
+    "answers": [
+      "la tasse"
+    ],
+    "target": "la tasse",
+    "explanation": "Tasse is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v040",
+    "week": 1,
+    "prompt": "Give the French word or expression for fork, including the definite article.",
+    "answers": [
+      "la fourchette"
+    ],
+    "target": "la fourchette",
+    "explanation": "Fourchette is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v041",
+    "week": 1,
+    "prompt": "Give the French word or expression for knife, including the definite article.",
+    "answers": [
+      "le couteau"
+    ],
+    "target": "le couteau",
+    "explanation": "Couteau is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v042",
+    "week": 1,
+    "prompt": "Give the French word or expression for spoon, including the definite article.",
+    "answers": [
+      "la cuillère",
+      "la cuiller"
+    ],
+    "target": "la cuillère",
+    "explanation": "Cuillère and cuiller are both correct; the noun is feminine.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v043",
+    "week": 1,
+    "prompt": "Give the French word or expression for bottle, including the definite article.",
+    "answers": [
+      "la bouteille"
+    ],
+    "target": "la bouteille",
+    "explanation": "Bouteille is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v044",
+    "week": 1,
+    "prompt": "Give the French word or expression for oven, including the definite article.",
+    "answers": [
+      "le four"
+    ],
+    "target": "le four",
+    "explanation": "Four is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v045",
+    "week": 1,
+    "prompt": "Give the French word or expression for refrigerator, including the definite article.",
+    "answers": [
+      "le réfrigérateur",
+      "le frigo"
+    ],
+    "target": "le réfrigérateur",
+    "explanation": "Réfrigérateur is masculine; frigo is a common informal alternative.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v046",
+    "week": 1,
+    "prompt": "Give the French word or expression for freezer, including the definite article.",
+    "answers": [
+      "le congélateur"
+    ],
+    "target": "le congélateur",
+    "explanation": "Congélateur is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v047",
+    "week": 1,
+    "prompt": "Give the French word or expression for washing machine, including the definite article.",
+    "answers": [
+      "la machine à laver",
+      "le lave-linge"
+    ],
+    "target": "la machine à laver",
+    "explanation": "Machine is feminine; lave-linge is masculine.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v048",
+    "week": 1,
+    "prompt": "Give the French word or expression for broom, including the definite article.",
+    "answers": [
+      "le balai"
+    ],
+    "target": "le balai",
+    "explanation": "Balai is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v049",
+    "week": 1,
+    "prompt": "Give the French word or expression for rubbish bin / trash can, including the definite article.",
+    "answers": [
+      "la poubelle"
+    ],
+    "target": "la poubelle",
+    "explanation": "Poubelle is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v050",
+    "week": 1,
+    "prompt": "Give the French word or expression for clock (not a wristwatch), including the definite article.",
+    "answers": [
+      "l'horloge",
+      "la pendule"
+    ],
+    "target": "l'horloge",
+    "explanation": "Horloge is feminine and takes l' before a silent h; pendule is also feminine.",
+    "tags": [
+      "vocabulary",
+      "week-1",
+      "home"
+    ]
+  },
+  {
+    "id": "v051",
+    "week": 2,
+    "prompt": "Give the French word or expression for bread, including the definite article.",
+    "answers": [
+      "le pain"
+    ],
+    "target": "le pain",
+    "explanation": "Pain is masculine; this prompt asks for the definite article le.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v052",
+    "week": 2,
+    "prompt": "Give the French word or expression for baguette (a long loaf of bread), including the definite article.",
+    "answers": [
+      "la baguette"
+    ],
+    "target": "la baguette",
+    "explanation": "Baguette is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v053",
+    "week": 2,
+    "prompt": "Give the French word or expression for rice, including the definite article.",
+    "answers": [
+      "le riz"
+    ],
+    "target": "le riz",
+    "explanation": "Riz is masculine; its final z is not pronounced.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v054",
+    "week": 2,
+    "prompt": "Give the French word or expression for pasta (use the plural noun), including the definite article.",
+    "answers": [
+      "les pâtes"
+    ],
+    "target": "les pâtes",
+    "explanation": "Pâtes is feminine plural; preserve the circumflex.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v055",
+    "week": 2,
+    "prompt": "Give the French word or expression for apple, including the definite article.",
+    "answers": [
+      "la pomme"
+    ],
+    "target": "la pomme",
+    "explanation": "Pomme is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v056",
+    "week": 2,
+    "prompt": "Give the French word or expression for pear, including the definite article.",
+    "answers": [
+      "la poire"
+    ],
+    "target": "la poire",
+    "explanation": "Poire is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v057",
+    "week": 2,
+    "prompt": "Give the French word or expression for banana, including the definite article.",
+    "answers": [
+      "la banane"
+    ],
+    "target": "la banane",
+    "explanation": "Banane is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v058",
+    "week": 2,
+    "prompt": "Give the French word or expression for orange (the fruit), including the definite article.",
+    "answers": [
+      "l'orange"
+    ],
+    "target": "l'orange",
+    "explanation": "Orange is feminine; la becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v059",
+    "week": 2,
+    "prompt": "Give the French word or expression for lemon, including the definite article.",
+    "answers": [
+      "le citron"
+    ],
+    "target": "le citron",
+    "explanation": "Citron is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v060",
+    "week": 2,
+    "prompt": "Give the French word or expression for strawberry, including the definite article.",
+    "answers": [
+      "la fraise"
+    ],
+    "target": "la fraise",
+    "explanation": "Fraise is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v061",
+    "week": 2,
+    "prompt": "Give the French word or expression for tomato, including the definite article.",
+    "answers": [
+      "la tomate"
+    ],
+    "target": "la tomate",
+    "explanation": "Tomate is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v062",
+    "week": 2,
+    "prompt": "Give the French word or expression for carrot, including the definite article.",
+    "answers": [
+      "la carotte"
+    ],
+    "target": "la carotte",
+    "explanation": "Carotte is feminine and has a double t.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v063",
+    "week": 2,
+    "prompt": "Give the French word or expression for potato, including the definite article.",
+    "answers": [
+      "la pomme de terre"
+    ],
+    "target": "la pomme de terre",
+    "explanation": "Pomme de terre is feminine, like pomme.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v064",
+    "week": 2,
+    "prompt": "Give the French word or expression for onion, including the definite article.",
+    "answers": [
+      "l'oignon",
+      "l'ognon"
+    ],
+    "target": "l'oignon",
+    "explanation": "Oignon is masculine; ognon is also accepted under the 1990 spelling changes.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v065",
+    "week": 2,
+    "prompt": "Give the French word or expression for green salad / lettuce, including the definite article.",
+    "answers": [
+      "la salade",
+      "la salade verte",
+      "la laitue"
+    ],
+    "target": "la salade",
+    "explanation": "Salade is feminine; salade verte specifies a green salad, while laitue is lettuce.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v066",
+    "week": 2,
+    "prompt": "Give the French word or expression for cheese, including the definite article.",
+    "answers": [
+      "le fromage"
+    ],
+    "target": "le fromage",
+    "explanation": "Fromage is masculine despite its final e.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v067",
+    "week": 2,
+    "prompt": "Give the French word or expression for milk, including the definite article.",
+    "answers": [
+      "le lait"
+    ],
+    "target": "le lait",
+    "explanation": "Lait is masculine; its final t is not pronounced.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v068",
+    "week": 2,
+    "prompt": "Give the French word or expression for butter, including the definite article.",
+    "answers": [
+      "le beurre"
+    ],
+    "target": "le beurre",
+    "explanation": "Beurre is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v069",
+    "week": 2,
+    "prompt": "Give the French word or expression for egg, including the definite article.",
+    "answers": [
+      "l'œuf",
+      "l'oeuf"
+    ],
+    "target": "l'œuf",
+    "explanation": "Œuf is masculine; le becomes l'. The oe spelling is accepted for keyboard access.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v070",
+    "week": 2,
+    "prompt": "Give the French word or expression for chicken (the meat), including the definite article.",
+    "answers": [
+      "le poulet"
+    ],
+    "target": "le poulet",
+    "explanation": "Poulet is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v071",
+    "week": 2,
+    "prompt": "Give the French word or expression for fish, including the definite article.",
+    "answers": [
+      "le poisson"
+    ],
+    "target": "le poisson",
+    "explanation": "Poisson is masculine and has a double s.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v072",
+    "week": 2,
+    "prompt": "Give the French word or expression for meat, including the definite article.",
+    "answers": [
+      "la viande"
+    ],
+    "target": "la viande",
+    "explanation": "Viande is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v073",
+    "week": 2,
+    "prompt": "Give the French word or expression for soup, including the definite article.",
+    "answers": [
+      "la soupe",
+      "le potage"
+    ],
+    "target": "la soupe",
+    "explanation": "Soupe is feminine; potage is a masculine alternative.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v074",
+    "week": 2,
+    "prompt": "Give the French word or expression for sugar, including the definite article.",
+    "answers": [
+      "le sucre"
+    ],
+    "target": "le sucre",
+    "explanation": "Sucre is masculine despite its final e.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v075",
+    "week": 2,
+    "prompt": "Give the French word or expression for salt, including the definite article.",
+    "answers": [
+      "le sel"
+    ],
+    "target": "le sel",
+    "explanation": "Sel is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v076",
+    "week": 2,
+    "prompt": "Give the French word or expression for pepper (the spice, not the vegetable), including the definite article.",
+    "answers": [
+      "le poivre"
+    ],
+    "target": "le poivre",
+    "explanation": "Poivre is masculine. Poivron means a bell pepper.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v077",
+    "week": 2,
+    "prompt": "Give the French word or expression for water, including the definite article.",
+    "answers": [
+      "l'eau"
+    ],
+    "target": "l'eau",
+    "explanation": "Eau is feminine; la becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v078",
+    "week": 2,
+    "prompt": "Give the French word or expression for coffee, including the definite article.",
+    "answers": [
+      "le café"
+    ],
+    "target": "le café",
+    "explanation": "Café is masculine; preserve the final accent.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v079",
+    "week": 2,
+    "prompt": "Give the French word or expression for tea, including the definite article.",
+    "answers": [
+      "le thé"
+    ],
+    "target": "le thé",
+    "explanation": "Thé is masculine; preserve the accent.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v080",
+    "week": 2,
+    "prompt": "Give the French word or expression for juice, including the definite article.",
+    "answers": [
+      "le jus"
+    ],
+    "target": "le jus",
+    "explanation": "Jus is masculine; its final s is not pronounced.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v081",
+    "week": 2,
+    "prompt": "Give the French word or expression for breakfast (usual usage in France), including the definite article.",
+    "answers": [
+      "le petit déjeuner",
+      "le petit-déjeuner"
+    ],
+    "target": "le petit déjeuner",
+    "explanation": "Petit déjeuner is masculine; the hyphenated spelling is also accepted.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v082",
+    "week": 2,
+    "prompt": "Give the French word or expression for lunch (the midday meal in France), including the definite article.",
+    "answers": [
+      "le déjeuner"
+    ],
+    "target": "le déjeuner",
+    "explanation": "Déjeuner is masculine; regional names for meals vary.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v083",
+    "week": 2,
+    "prompt": "Give the French word or expression for dinner (the evening meal in France), including the definite article.",
+    "answers": [
+      "le dîner",
+      "le diner"
+    ],
+    "target": "le dîner",
+    "explanation": "Dîner is masculine; diner is also accepted under the 1990 spelling changes.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v084",
+    "week": 2,
+    "prompt": "Give the French word or expression for meal, including the definite article.",
+    "answers": [
+      "le repas"
+    ],
+    "target": "le repas",
+    "explanation": "Repas is masculine and ends in s even in the singular.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v085",
+    "week": 2,
+    "prompt": "Give the French word or expression for restaurant, including the definite article.",
+    "answers": [
+      "le restaurant"
+    ],
+    "target": "le restaurant",
+    "explanation": "Restaurant is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v086",
+    "week": 2,
+    "prompt": "Give the French word or expression for set menu (a meal selection offered together), including the definite article.",
+    "answers": [
+      "le menu"
+    ],
+    "target": "le menu",
+    "explanation": "Menu is masculine; a carte can instead list individual dishes.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v087",
+    "week": 2,
+    "prompt": "Give the French word or expression for bill / check (at a restaurant), including the definite article.",
+    "answers": [
+      "l'addition"
+    ],
+    "target": "l'addition",
+    "explanation": "Addition is feminine; la becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v088",
+    "week": 2,
+    "prompt": "Give the French word or expression for market (a place where food is sold), including the definite article.",
+    "answers": [
+      "le marché"
+    ],
+    "target": "le marché",
+    "explanation": "Marché is masculine; preserve the final accent.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v089",
+    "week": 2,
+    "prompt": "Give the French word or expression for bakery, including the definite article.",
+    "answers": [
+      "la boulangerie"
+    ],
+    "target": "la boulangerie",
+    "explanation": "Boulangerie is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v090",
+    "week": 2,
+    "prompt": "Give the French word or expression for supermarket, including the definite article.",
+    "answers": [
+      "le supermarché"
+    ],
+    "target": "le supermarché",
+    "explanation": "Supermarché is masculine; preserve the final accent.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v091",
+    "week": 2,
+    "prompt": "Give the French word or expression for shop / store, including the definite article.",
+    "answers": [
+      "le magasin",
+      "la boutique"
+    ],
+    "target": "le magasin",
+    "explanation": "Magasin is masculine; boutique is a feminine alternative.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v092",
+    "week": 2,
+    "prompt": "Give the French word or expression for price, including the definite article.",
+    "answers": [
+      "le prix"
+    ],
+    "target": "le prix",
+    "explanation": "Prix is masculine and ends in x in the singular.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v093",
+    "week": 2,
+    "prompt": "Give the French word or expression for money, including the definite article.",
+    "answers": [
+      "l'argent"
+    ],
+    "target": "l'argent",
+    "explanation": "Argent is masculine; le becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v094",
+    "week": 2,
+    "prompt": "Give the French word or expression for change (coins or money returned after paying), including the definite article.",
+    "answers": [
+      "la monnaie"
+    ],
+    "target": "la monnaie",
+    "explanation": "Monnaie is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v095",
+    "week": 2,
+    "prompt": "Give the French word or expression for till receipt, including the definite article.",
+    "answers": [
+      "le ticket de caisse",
+      "le reçu"
+    ],
+    "target": "le ticket de caisse",
+    "explanation": "Ticket de caisse is masculine; reçu can also mean a receipt.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v096",
+    "week": 2,
+    "prompt": "Give the French word or expression for bag, including the definite article.",
+    "answers": [
+      "le sac"
+    ],
+    "target": "le sac",
+    "explanation": "Sac is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v097",
+    "week": 2,
+    "prompt": "Give the French word or expression for basket, including the definite article.",
+    "answers": [
+      "le panier"
+    ],
+    "target": "le panier",
+    "explanation": "Panier is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v098",
+    "week": 2,
+    "prompt": "Give the French word or expression for customer (a man), including the definite article.",
+    "answers": [
+      "le client"
+    ],
+    "target": "le client",
+    "explanation": "Client is masculine; the feminine form is cliente.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v099",
+    "week": 2,
+    "prompt": "Give the French word or expression for customer (a woman), including the definite article.",
+    "answers": [
+      "la cliente"
+    ],
+    "target": "la cliente",
+    "explanation": "Cliente is feminine; add e to client.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v100",
+    "week": 2,
+    "prompt": "Give the French word or expression for checkout / till (in a shop), including the definite article.",
+    "answers": [
+      "la caisse"
+    ],
+    "target": "la caisse",
+    "explanation": "Caisse is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-2",
+      "food-and-shopping"
+    ]
+  },
+  {
+    "id": "v101",
+    "week": 3,
+    "prompt": "Give the French word or expression for street, including the definite article.",
+    "answers": [
+      "la rue"
+    ],
+    "target": "la rue",
+    "explanation": "Rue is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v102",
+    "week": 3,
+    "prompt": "Give the French word or expression for road, including the definite article.",
+    "answers": [
+      "la route"
+    ],
+    "target": "la route",
+    "explanation": "Route is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v103",
+    "week": 3,
+    "prompt": "Give the French word or expression for town / city, including the definite article.",
+    "answers": [
+      "la ville"
+    ],
+    "target": "la ville",
+    "explanation": "Ville is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v104",
+    "week": 3,
+    "prompt": "Give the French word or expression for village, including the definite article.",
+    "answers": [
+      "le village"
+    ],
+    "target": "le village",
+    "explanation": "Village is masculine despite its final e.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v105",
+    "week": 3,
+    "prompt": "Give the French word or expression for country (a nation), including the definite article.",
+    "answers": [
+      "le pays"
+    ],
+    "target": "le pays",
+    "explanation": "Pays is masculine and ends in s in the singular.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v106",
+    "week": 3,
+    "prompt": "Give the French word or expression for railway station, including the definite article.",
+    "answers": [
+      "la gare"
+    ],
+    "target": "la gare",
+    "explanation": "Gare is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v107",
+    "week": 3,
+    "prompt": "Give the French word or expression for train, including the definite article.",
+    "answers": [
+      "le train"
+    ],
+    "target": "le train",
+    "explanation": "Train is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v108",
+    "week": 3,
+    "prompt": "Give the French word or expression for bus, including the definite article.",
+    "answers": [
+      "le bus",
+      "l'autobus"
+    ],
+    "target": "le bus",
+    "explanation": "Bus and autobus are masculine; autobus takes l'.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v109",
+    "week": 3,
+    "prompt": "Give the French word or expression for metro / underground railway, including the definite article.",
+    "answers": [
+      "le métro"
+    ],
+    "target": "le métro",
+    "explanation": "Métro is masculine; preserve the accent.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v110",
+    "week": 3,
+    "prompt": "Give the French word or expression for car, including the definite article.",
+    "answers": [
+      "la voiture",
+      "l'automobile"
+    ],
+    "target": "la voiture",
+    "explanation": "Voiture and automobile are feminine; automobile takes l'.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v111",
+    "week": 3,
+    "prompt": "Give the French word or expression for bicycle, including the definite article.",
+    "answers": [
+      "le vélo",
+      "la bicyclette"
+    ],
+    "target": "le vélo",
+    "explanation": "Vélo is masculine; bicyclette is a feminine alternative.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v112",
+    "week": 3,
+    "prompt": "Give the French word or expression for aeroplane / airplane, including the definite article.",
+    "answers": [
+      "l'avion"
+    ],
+    "target": "l'avion",
+    "explanation": "Avion is masculine; le becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v113",
+    "week": 3,
+    "prompt": "Give the French word or expression for airport, including the definite article.",
+    "answers": [
+      "l'aéroport"
+    ],
+    "target": "l'aéroport",
+    "explanation": "Aéroport is masculine; preserve the accent on é.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v114",
+    "week": 3,
+    "prompt": "Give the French word or expression for train ticket, including the definite article.",
+    "answers": [
+      "le billet",
+      "le billet de train"
+    ],
+    "target": "le billet",
+    "explanation": "Billet is masculine; de train specifies a train ticket.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v115",
+    "week": 3,
+    "prompt": "Give the French word or expression for passport, including the definite article.",
+    "answers": [
+      "le passeport"
+    ],
+    "target": "le passeport",
+    "explanation": "Passeport is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v116",
+    "week": 3,
+    "prompt": "Give the French word or expression for suitcase, including the definite article.",
+    "answers": [
+      "la valise"
+    ],
+    "target": "la valise",
+    "explanation": "Valise is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v117",
+    "week": 3,
+    "prompt": "Give the French word or expression for hotel, including the definite article.",
+    "answers": [
+      "l'hôtel"
+    ],
+    "target": "l'hôtel",
+    "explanation": "Hôtel is masculine and begins with a silent h, so use l'.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v118",
+    "week": 3,
+    "prompt": "Give the French word or expression for reservation / booking, including the definite article.",
+    "answers": [
+      "la réservation"
+    ],
+    "target": "la réservation",
+    "explanation": "Réservation is feminine; preserve the accent.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v119",
+    "week": 3,
+    "prompt": "Give the French word or expression for map (a geographical map), including the definite article.",
+    "answers": [
+      "la carte",
+      "la carte géographique"
+    ],
+    "target": "la carte",
+    "explanation": "Carte is feminine; géographique distinguishes a map from other cards.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v120",
+    "week": 3,
+    "prompt": "Give the French word or expression for beach, including the definite article.",
+    "answers": [
+      "la plage"
+    ],
+    "target": "la plage",
+    "explanation": "Plage is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v121",
+    "week": 3,
+    "prompt": "Give the French word or expression for sea, including the definite article.",
+    "answers": [
+      "la mer"
+    ],
+    "target": "la mer",
+    "explanation": "Mer is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v122",
+    "week": 3,
+    "prompt": "Give the French word or expression for mountain, including the definite article.",
+    "answers": [
+      "la montagne"
+    ],
+    "target": "la montagne",
+    "explanation": "Montagne is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v123",
+    "week": 3,
+    "prompt": "Give the French word or expression for river (one that flows into another river), including the definite article.",
+    "answers": [
+      "la rivière"
+    ],
+    "target": "la rivière",
+    "explanation": "Rivière is feminine; fleuve is used for a river that reaches the sea.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v124",
+    "week": 3,
+    "prompt": "Give the French word or expression for bridge, including the definite article.",
+    "answers": [
+      "le pont"
+    ],
+    "target": "le pont",
+    "explanation": "Pont is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v125",
+    "week": 3,
+    "prompt": "Give the French word or expression for park, including the definite article.",
+    "answers": [
+      "le parc"
+    ],
+    "target": "le parc",
+    "explanation": "Parc is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v126",
+    "week": 3,
+    "prompt": "Give the French word or expression for school, including the definite article.",
+    "answers": [
+      "l'école"
+    ],
+    "target": "l'école",
+    "explanation": "École is feminine; la becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v127",
+    "week": 3,
+    "prompt": "Give the French word or expression for class (a group of pupils), including the definite article.",
+    "answers": [
+      "la classe"
+    ],
+    "target": "la classe",
+    "explanation": "Classe is feminine; here it means the group, not the classroom.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v128",
+    "week": 3,
+    "prompt": "Give the French word or expression for classroom, including the definite article.",
+    "answers": [
+      "la salle de classe"
+    ],
+    "target": "la salle de classe",
+    "explanation": "Salle is feminine; de classe specifies the type of room.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v129",
+    "week": 3,
+    "prompt": "Give the French word or expression for secondary-school teacher (a man), including the definite article.",
+    "answers": [
+      "le professeur",
+      "l'enseignant",
+      "le prof"
+    ],
+    "target": "le professeur",
+    "explanation": "Professeur and enseignant are masculine here; prof is an informal short form.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v130",
+    "week": 3,
+    "prompt": "Give the French word or expression for university student (a woman), including the definite article.",
+    "answers": [
+      "l'étudiante"
+    ],
+    "target": "l'étudiante",
+    "explanation": "Étudiante is feminine; the final e marks the feminine form.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v131",
+    "week": 3,
+    "prompt": "Give the French word or expression for university student (a man), including the definite article.",
+    "answers": [
+      "l'étudiant"
+    ],
+    "target": "l'étudiant",
+    "explanation": "Étudiant is masculine; use l' before the vowel.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v132",
+    "week": 3,
+    "prompt": "Give the French word or expression for book (something to read), including the definite article.",
+    "answers": [
+      "le livre"
+    ],
+    "target": "le livre",
+    "explanation": "Livre meaning book is masculine; la livre means a pound.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v133",
+    "week": 3,
+    "prompt": "Give the French word or expression for exercise book / notebook (paper), including the definite article.",
+    "answers": [
+      "le cahier",
+      "le carnet"
+    ],
+    "target": "le cahier",
+    "explanation": "Cahier is masculine; carnet is another masculine word for a small notebook.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v134",
+    "week": 3,
+    "prompt": "Give the French word or expression for pen, including the definite article.",
+    "answers": [
+      "le stylo"
+    ],
+    "target": "le stylo",
+    "explanation": "Stylo is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v135",
+    "week": 3,
+    "prompt": "Give the French word or expression for pencil, including the definite article.",
+    "answers": [
+      "le crayon",
+      "le crayon à papier"
+    ],
+    "target": "le crayon",
+    "explanation": "Crayon is masculine; à papier specifies a pencil for writing on paper.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v136",
+    "week": 3,
+    "prompt": "Give the French word or expression for eraser / rubber (for pencil marks), including the definite article.",
+    "answers": [
+      "la gomme"
+    ],
+    "target": "la gomme",
+    "explanation": "Gomme is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v137",
+    "week": 3,
+    "prompt": "Give the French word or expression for paper (the material), including the definite article.",
+    "answers": [
+      "le papier"
+    ],
+    "target": "le papier",
+    "explanation": "Papier is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v138",
+    "week": 3,
+    "prompt": "Give the French word or expression for computer, including the definite article.",
+    "answers": [
+      "l'ordinateur"
+    ],
+    "target": "l'ordinateur",
+    "explanation": "Ordinateur is masculine; use l' before the vowel.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v139",
+    "week": 3,
+    "prompt": "Give the French word or expression for screen (on a computer), including the definite article.",
+    "answers": [
+      "l'écran"
+    ],
+    "target": "l'écran",
+    "explanation": "Écran is masculine; preserve the accent.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v140",
+    "week": 3,
+    "prompt": "Give the French word or expression for keyboard (for a computer), including the definite article.",
+    "answers": [
+      "le clavier"
+    ],
+    "target": "le clavier",
+    "explanation": "Clavier is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v141",
+    "week": 3,
+    "prompt": "Give the French word or expression for mouse (a computer device), including the definite article.",
+    "answers": [
+      "la souris"
+    ],
+    "target": "la souris",
+    "explanation": "Souris is feminine and ends in s even in the singular.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v142",
+    "week": 3,
+    "prompt": "Give the French word or expression for telephone / phone, including the definite article.",
+    "answers": [
+      "le téléphone"
+    ],
+    "target": "le téléphone",
+    "explanation": "Téléphone is masculine; preserve the accents.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v143",
+    "week": 3,
+    "prompt": "Give the French word or expression for message, including the definite article.",
+    "answers": [
+      "le message"
+    ],
+    "target": "le message",
+    "explanation": "Message is masculine despite its final e.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v144",
+    "week": 3,
+    "prompt": "Give the French word or expression for letter (a written message sent to someone), including the definite article.",
+    "answers": [
+      "la lettre"
+    ],
+    "target": "la lettre",
+    "explanation": "Lettre is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v145",
+    "week": 3,
+    "prompt": "Give the French word or expression for question, including the definite article.",
+    "answers": [
+      "la question"
+    ],
+    "target": "la question",
+    "explanation": "Question is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v146",
+    "week": 3,
+    "prompt": "Give the French word or expression for answer / response, including the definite article.",
+    "answers": [
+      "la réponse"
+    ],
+    "target": "la réponse",
+    "explanation": "Réponse is feminine; preserve the accent.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v147",
+    "week": 3,
+    "prompt": "Give the French word or expression for word, including the definite article.",
+    "answers": [
+      "le mot"
+    ],
+    "target": "le mot",
+    "explanation": "Mot is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v148",
+    "week": 3,
+    "prompt": "Give the French word or expression for sentence (in grammar), including the definite article.",
+    "answers": [
+      "la phrase"
+    ],
+    "target": "la phrase",
+    "explanation": "Phrase is feminine; in this context it means sentence.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v149",
+    "week": 3,
+    "prompt": "Give the French word or expression for language (such as French), including the definite article.",
+    "answers": [
+      "la langue"
+    ],
+    "target": "la langue",
+    "explanation": "Langue is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v150",
+    "week": 3,
+    "prompt": "Give the French word or expression for homework assignment (one assigned task), including the definite article.",
+    "answers": [
+      "le devoir"
+    ],
+    "target": "le devoir",
+    "explanation": "Devoir is masculine; les devoirs commonly means homework collectively.",
+    "tags": [
+      "vocabulary",
+      "week-3",
+      "travel-and-study"
+    ]
+  },
+  {
+    "id": "v151",
+    "week": 4,
+    "prompt": "Give the French word or expression for family, including the definite article.",
+    "answers": [
+      "la famille"
+    ],
+    "target": "la famille",
+    "explanation": "Famille is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v152",
+    "week": 4,
+    "prompt": "Give the French word or expression for mother, including the definite article.",
+    "answers": [
+      "la mère"
+    ],
+    "target": "la mère",
+    "explanation": "Mère is feminine; preserve the grave accent.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v153",
+    "week": 4,
+    "prompt": "Give the French word or expression for father, including the definite article.",
+    "answers": [
+      "le père"
+    ],
+    "target": "le père",
+    "explanation": "Père is masculine; preserve the grave accent.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v154",
+    "week": 4,
+    "prompt": "Give the French word or expression for sister, including the definite article.",
+    "answers": [
+      "la sœur",
+      "la soeur"
+    ],
+    "target": "la sœur",
+    "explanation": "Sœur is feminine; soeur is accepted for keyboard access.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v155",
+    "week": 4,
+    "prompt": "Give the French word or expression for brother, including the definite article.",
+    "answers": [
+      "le frère"
+    ],
+    "target": "le frère",
+    "explanation": "Frère is masculine; preserve the grave accent.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v156",
+    "week": 4,
+    "prompt": "Give the French word or expression for daughter, including the definite article.",
+    "answers": [
+      "la fille"
+    ],
+    "target": "la fille",
+    "explanation": "Fille is feminine and can also mean girl; the context here is family.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v157",
+    "week": 4,
+    "prompt": "Give the French word or expression for son, including the definite article.",
+    "answers": [
+      "le fils"
+    ],
+    "target": "le fils",
+    "explanation": "Fils is masculine and ends in s even in the singular.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v158",
+    "week": 4,
+    "prompt": "Give the French word or expression for friend (a woman), including the definite article.",
+    "answers": [
+      "l'amie",
+      "la copine"
+    ],
+    "target": "l'amie",
+    "explanation": "Amie is feminine; copine is an informal alternative that can also mean girlfriend.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v159",
+    "week": 4,
+    "prompt": "Give the French word or expression for friend (a man), including the definite article.",
+    "answers": [
+      "l'ami",
+      "le copain"
+    ],
+    "target": "l'ami",
+    "explanation": "Ami is masculine; copain is an informal alternative that can also mean boyfriend.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v160",
+    "week": 4,
+    "prompt": "Give the French word or expression for child (a boy), including the definite article.",
+    "answers": [
+      "l'enfant"
+    ],
+    "target": "l'enfant",
+    "explanation": "Enfant is masculine in this prompt; l' alone does not reveal gender.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v161",
+    "week": 4,
+    "prompt": "Give the French word or expression for woman (an adult woman), including the definite article.",
+    "answers": [
+      "la femme"
+    ],
+    "target": "la femme",
+    "explanation": "Femme is feminine; it can also mean wife in context.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v162",
+    "week": 4,
+    "prompt": "Give the French word or expression for man (an adult man), including the definite article.",
+    "answers": [
+      "l'homme"
+    ],
+    "target": "l'homme",
+    "explanation": "Homme is masculine and begins with a silent h, so use l'.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v163",
+    "week": 4,
+    "prompt": "Give the French word or expression for baby, including the definite article.",
+    "answers": [
+      "le bébé"
+    ],
+    "target": "le bébé",
+    "explanation": "Bébé is a masculine noun; preserve both accents.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v164",
+    "week": 4,
+    "prompt": "Give the French word or expression for surname / family name, including the definite article.",
+    "answers": [
+      "le nom",
+      "le nom de famille"
+    ],
+    "target": "le nom",
+    "explanation": "Nom is masculine; nom de famille makes the surname meaning explicit.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v165",
+    "week": 4,
+    "prompt": "Give the French word or expression for first name / given name, including the definite article.",
+    "answers": [
+      "le prénom"
+    ],
+    "target": "le prénom",
+    "explanation": "Prénom is masculine; preserve the accent.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v166",
+    "week": 4,
+    "prompt": "Give the French word or expression for age, including the definite article.",
+    "answers": [
+      "l'âge"
+    ],
+    "target": "l'âge",
+    "explanation": "Âge is masculine; preserve the circumflex.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v167",
+    "week": 4,
+    "prompt": "Give the French word or expression for birthday, including the definite article.",
+    "answers": [
+      "l'anniversaire"
+    ],
+    "target": "l'anniversaire",
+    "explanation": "Anniversaire is masculine; use l' before the vowel.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v168",
+    "week": 4,
+    "prompt": "Give the French word or expression for day (a unit or period of time), including the definite article.",
+    "answers": [
+      "le jour",
+      "la journée"
+    ],
+    "target": "le jour",
+    "explanation": "Jour is masculine; journée is feminine and emphasises the duration or events of a day.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v169",
+    "week": 4,
+    "prompt": "Give the French word or expression for week, including the definite article.",
+    "answers": [
+      "la semaine"
+    ],
+    "target": "la semaine",
+    "explanation": "Semaine is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v170",
+    "week": 4,
+    "prompt": "Give the French word or expression for month, including the definite article.",
+    "answers": [
+      "le mois"
+    ],
+    "target": "le mois",
+    "explanation": "Mois is masculine and ends in s in the singular.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v171",
+    "week": 4,
+    "prompt": "Give the French word or expression for year (a unit or period of time), including the definite article.",
+    "answers": [
+      "l'année",
+      "l'an"
+    ],
+    "target": "l'année",
+    "explanation": "Année is feminine and an is masculine; both use l' before the vowel.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v172",
+    "week": 4,
+    "prompt": "Give the French word or expression for morning, including the definite article.",
+    "answers": [
+      "le matin",
+      "la matinée"
+    ],
+    "target": "le matin",
+    "explanation": "Matin is masculine; matinée is feminine and emphasises the duration of the morning.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v173",
+    "week": 4,
+    "prompt": "Give the French word or expression for evening, including the definite article.",
+    "answers": [
+      "le soir",
+      "la soirée"
+    ],
+    "target": "le soir",
+    "explanation": "Soir is masculine; soirée is feminine and emphasises the duration or events of the evening.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v174",
+    "week": 4,
+    "prompt": "Give the French word or expression for night, including the definite article.",
+    "answers": [
+      "la nuit"
+    ],
+    "target": "la nuit",
+    "explanation": "Nuit is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v175",
+    "week": 4,
+    "prompt": "Give the French word or expression for hour, including the definite article.",
+    "answers": [
+      "l'heure"
+    ],
+    "target": "l'heure",
+    "explanation": "Heure is feminine and begins with a silent h, so use l'.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v176",
+    "week": 4,
+    "prompt": "Give the French word or expression for minute (a unit of time), including the definite article.",
+    "answers": [
+      "la minute"
+    ],
+    "target": "la minute",
+    "explanation": "Minute is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v177",
+    "week": 4,
+    "prompt": "Give the French word or expression for second (a unit of time), including the definite article.",
+    "answers": [
+      "la seconde"
+    ],
+    "target": "la seconde",
+    "explanation": "Seconde is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v178",
+    "week": 4,
+    "prompt": "Give the French word or expression for appointment, including the definite article.",
+    "answers": [
+      "le rendez-vous"
+    ],
+    "target": "le rendez-vous",
+    "explanation": "Rendez-vous is masculine; preserve the internal hyphen.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v179",
+    "week": 4,
+    "prompt": "Give the French word or expression for work (the activity, not a work of art), including the definite article.",
+    "answers": [
+      "le travail",
+      "le boulot",
+      "le labeur"
+    ],
+    "target": "le travail",
+    "explanation": "Travail is masculine; boulot is informal and labeur emphasises effort.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v180",
+    "week": 4,
+    "prompt": "Give the French word or expression for office (a room where someone works), including the definite article.",
+    "answers": [
+      "le bureau"
+    ],
+    "target": "le bureau",
+    "explanation": "Bureau is masculine; it can also mean a desk.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v181",
+    "week": 4,
+    "prompt": "Give the French word or expression for meeting (a work meeting), including the definite article.",
+    "answers": [
+      "la réunion"
+    ],
+    "target": "la réunion",
+    "explanation": "Réunion is feminine; preserve the accent.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v182",
+    "week": 4,
+    "prompt": "Give the French word or expression for break (a short rest from work), including the definite article.",
+    "answers": [
+      "la pause"
+    ],
+    "target": "la pause",
+    "explanation": "Pause is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v183",
+    "week": 4,
+    "prompt": "Give the French word or expression for weather, including the definite article.",
+    "answers": [
+      "le temps"
+    ],
+    "target": "le temps",
+    "explanation": "Temps is masculine and ends in s; it can also mean time.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v184",
+    "week": 4,
+    "prompt": "Give the French word or expression for sun, including the definite article.",
+    "answers": [
+      "le soleil"
+    ],
+    "target": "le soleil",
+    "explanation": "Soleil is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v185",
+    "week": 4,
+    "prompt": "Give the French word or expression for rain, including the definite article.",
+    "answers": [
+      "la pluie"
+    ],
+    "target": "la pluie",
+    "explanation": "Pluie is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v186",
+    "week": 4,
+    "prompt": "Give the French word or expression for snow, including the definite article.",
+    "answers": [
+      "la neige"
+    ],
+    "target": "la neige",
+    "explanation": "Neige is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v187",
+    "week": 4,
+    "prompt": "Give the French word or expression for wind, including the definite article.",
+    "answers": [
+      "le vent"
+    ],
+    "target": "le vent",
+    "explanation": "Vent is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v188",
+    "week": 4,
+    "prompt": "Give the French word or expression for cloud, including the definite article.",
+    "answers": [
+      "le nuage"
+    ],
+    "target": "le nuage",
+    "explanation": "Nuage is masculine despite its final e.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v189",
+    "week": 4,
+    "prompt": "Give the French word or expression for cold (the noun meaning low temperature), including the definite article.",
+    "answers": [
+      "le froid"
+    ],
+    "target": "le froid",
+    "explanation": "Froid is masculine here; the prompt asks for the noun, not an adjective.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v190",
+    "week": 4,
+    "prompt": "Give the French word or expression for heat (high temperature), including the definite article.",
+    "answers": [
+      "la chaleur"
+    ],
+    "target": "la chaleur",
+    "explanation": "Chaleur is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v191",
+    "week": 4,
+    "prompt": "Give the French word or expression for head (a body part), including the definite article.",
+    "answers": [
+      "la tête"
+    ],
+    "target": "la tête",
+    "explanation": "Tête is feminine; preserve the circumflex.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v192",
+    "week": 4,
+    "prompt": "Give the French word or expression for hand, including the definite article.",
+    "answers": [
+      "la main"
+    ],
+    "target": "la main",
+    "explanation": "Main is feminine despite its ending.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v193",
+    "week": 4,
+    "prompt": "Give the French word or expression for arm, including the definite article.",
+    "answers": [
+      "le bras"
+    ],
+    "target": "le bras",
+    "explanation": "Bras is masculine and ends in s in the singular.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v194",
+    "week": 4,
+    "prompt": "Give the French word or expression for leg, including the definite article.",
+    "answers": [
+      "la jambe"
+    ],
+    "target": "la jambe",
+    "explanation": "Jambe is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v195",
+    "week": 4,
+    "prompt": "Give the French word or expression for foot, including the definite article.",
+    "answers": [
+      "le pied"
+    ],
+    "target": "le pied",
+    "explanation": "Pied is masculine; use le.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v196",
+    "week": 4,
+    "prompt": "Give the French word or expression for back (a body part), including the definite article.",
+    "answers": [
+      "le dos"
+    ],
+    "target": "le dos",
+    "explanation": "Dos is masculine and ends in s in the singular.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v197",
+    "week": 4,
+    "prompt": "Give the French word or expression for eye (singular), including the definite article.",
+    "answers": [
+      "l'œil",
+      "l'oeil"
+    ],
+    "target": "l'œil",
+    "explanation": "Œil is masculine; its plural is yeux. The oe spelling is accepted for keyboard access.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v198",
+    "week": 4,
+    "prompt": "Give the French word or expression for ear, including the definite article.",
+    "answers": [
+      "l'oreille"
+    ],
+    "target": "l'oreille",
+    "explanation": "Oreille is feminine; la becomes l' before a vowel.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v199",
+    "week": 4,
+    "prompt": "Give the French word or expression for medical doctor (a man), including the definite article.",
+    "answers": [
+      "le médecin",
+      "le docteur"
+    ],
+    "target": "le médecin",
+    "explanation": "Médecin and docteur are masculine in this prompt.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  },
+  {
+    "id": "v200",
+    "week": 4,
+    "prompt": "Give the French word or expression for pharmacy / chemist's shop, including the definite article.",
+    "answers": [
+      "la pharmacie"
+    ],
+    "target": "la pharmacie",
+    "explanation": "Pharmacie is feminine; use la.",
+    "tags": [
+      "vocabulary",
+      "week-4",
+      "people-time-and-health"
+    ]
+  }
+]

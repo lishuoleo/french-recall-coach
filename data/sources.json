@@ -1,0 +1,50 @@
+{
+  "authorship": "Original English prompts, French example answers and brief teaching explanations created for this public workshop sample. No paid course prose or exercise export is included.",
+  "review_date": "2026-10-22",
+  "curriculum": {
+    "vocabulary": "200 distinct beginner nouns and expressions, 50 per stage; stage 1 begins with the original workshop sentence about la maison.",
+    "conjugation": "20 common irregular verbs, six persons and four indicative tenses: présent, passé composé, imparfait and futur simple. All selected compound-past cards use avoir with no preceding direct object.",
+    "numbers": "Metropolitan French. Four deterministic 20-item assessment samples cover cardinal numbers, masculine ordinals, dates and formal 24-hour times."
+  },
+  "limits": [
+    "These are constrained written recall exercises, not a validated assessment of conversational proficiency, pronunciation or long-term mastery.",
+    "Accepted answers are bounded and include selected common synonyms and spelling variants. An unlisted valid synonym may need review; the list is not a complete French semantic dictionary.",
+    "Vocabulary prompts specify definite articles; partitive or indefinite articles do not satisfy that exercise instruction even when they could appear in a grammatical sentence.",
+    "Conjugation prompts request only the conjugated verb phrase, excluding je/j' and other subject pronouns. This sample does not drill être-auxiliary agreement, reflexive verbs, preceding-object agreement, subjunctive or imperative forms.",
+    "Numeric exercises teach metropolitan forms; septante, huitante and nonante are valid regional forms but are outside the stated dialect for these exercises.",
+    "Stage samples are finite; completing one is evidence about that sample, not proof that every possible number or phrase has been mastered."
+  ],
+  "references": [
+    {
+      "title": "Académie française: pouvoir, including je peux / je puis",
+      "url": "https://www.dictionnaire-academie.fr/article/A9P3829",
+      "used_for": "Spot-checking the accepted first-person present variant and irregular future."
+    },
+    {
+      "title": "Académie française: devoir",
+      "url": "https://www.dictionnaire-academie.fr/article/A9D2262",
+      "used_for": "Spot-checking the past participle dû and future stem."
+    },
+    {
+      "title": "Académie française: connaître",
+      "url": "https://www.dictionnaire-academie.fr/article/A9C3636",
+      "used_for": "Spot-checking present, imperfect, participle and future forms."
+    },
+    {
+      "title": "Larousse: connaître, spelling and conjugation",
+      "url": "https://www.larousse.fr/fr/conjugaison/francais/conna%C3%AEtre/1861",
+      "used_for": "Traditional circumflex spellings; reformed connaitre forms are also accepted."
+    },
+    {
+      "title": "Larousse: connaître / connaitre",
+      "url": "https://www.larousse.fr/dictionnaires/francais/conna%C3%AEtre/18277",
+      "used_for": "Confirming the accepted 1990 spelling variant."
+    },
+    {
+      "title": "Number/date/time conventions and sources",
+      "local_file": "numbers.json",
+      "used_for": "Agreement, spelling and selected boundary examples."
+    }
+  ],
+  "verification": "Structural and independent language regression tests are in tests/test_content.py. Reference checks are targeted, not a claim that every card has been independently reviewed by a French teacher."
+}
